@@ -11,7 +11,7 @@
         $email = mysqli_real_escape_string($db, $_POST['email']);
         $firm = mysqli_real_escape_string($db, $_POST['firm']);
 
-        $query = "INSERT INTO gb2 (firstname, lastname, email, firm) VALUES ('$firstname','$lastname','$email','$firm')";
+        $query = "INSERT INTO gb3 (firstname, lastname, email, firm) VALUES ('$firstname','$lastname','$email','$firm')";
         mysqli_query($db,$query);
 
     }

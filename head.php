@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
+        <link rel="icon" href="favicon-32x32.png" type="image/x-icon"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <title>Webconia</title>
     </head>
@@ -13,7 +14,7 @@
     <body>
 
         <header>
-            <a href="/webconia/">
+            <a href="index.php">
                 <img class="displayed" src="unnamed.png">
             </a>
             <h1>*** ***<h1>
@@ -24,7 +25,6 @@
                 </div>
     </header>
 <?php
-  //  if (isset($_POST['create']))
 
 if (!empty($_POST))
     save_mess();
